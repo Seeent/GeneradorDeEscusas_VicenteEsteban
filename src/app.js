@@ -15,7 +15,7 @@ window.onload = function() {
 };
 
 let generadorExcusas = () => {
-  let quien = [
+  const quien = [
     "Harry Potter",
     "Albus Dumbledore",
     "Dobby",
@@ -43,7 +43,7 @@ let generadorExcusas = () => {
     "Sirius Black",
     "Jorge"
   ];
-  let accion = [
+  const accion = [
     " comió",
     " cagó",
     " enfadó",
@@ -65,7 +65,7 @@ let generadorExcusas = () => {
     " estudió",
     " vendió"
   ];
-  let cosas = [
+  const cosas = [
     " la mosca",
     " los gamusinos",
     " los caracoles",
@@ -127,7 +127,7 @@ let generadorExcusas = () => {
     " el césped",
     " el teléfono"
   ];
-  let donde = [
+  const donde = [
     " en la academia Mágica Beauxbatons",
     " en el andén 9 ¾",
     " en Azkaban",
